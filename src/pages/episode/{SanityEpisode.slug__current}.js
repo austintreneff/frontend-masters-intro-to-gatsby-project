@@ -13,11 +13,6 @@ export const query = graphql`
       }
       youtubeID
       date(fromNow: true)
-      image {
-        asset {
-          gatsbyImageData(placeholder: DOMINANT_COLOR)
-        }
-      }
     }
   }
 `;
